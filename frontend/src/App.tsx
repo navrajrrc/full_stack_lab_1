@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import EmployeeDirectory from './components/employee';
 import AddEmployeeForm from './components/employeeform';
-import { initialDepartments } from './employeeData';
-import type { Department, Employee } from './employeeData';
+import { initialDepartments } from './employeeData.ts';
+import type { Department, Employee } from './employeeData.ts';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout';
 import OrganizationPage from './components/organizationPage';

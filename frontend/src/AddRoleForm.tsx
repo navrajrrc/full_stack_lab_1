@@ -1,5 +1,5 @@
-import { useFormInput } from '../src/useFormatInput';
-import { organizationService } from '../src/organizationService';
+import { useFormInput } from './useFormatInput';
+import { organizationService } from './organizationService';
 
 function AddRoleForm({ onRoleAdded }: { onRoleAdded: () => void }) {
   const service = organizationService();
